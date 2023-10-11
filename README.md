@@ -14,3 +14,13 @@ recursive call considers.
 Analyse the time complexity of your implementation and give a $\Theta$ bound for
 its worst-case runtime. Add your answer, including your reasoning, to this
 markdown file.
+
+QuickSort sorts an array by dividing it into smaller parts over and over. When it organizes the items in each part, it goes through each item one at a time. Since the array gets split in half each time, it takes about a certain number of steps, kind of like using a logarithmic number of steps (O(log n), where 'n' is the array size). So, the worst-case time it takes to sort the array is O(n log n). As the array gets bigger, it doesn't take a whole lot longer to sort it, which is great for sorting big sets of things.
+
+-> Sources used: 
+
+- TA
+- Andon Mefford - Classmate 
+- https://www.freecodecamp.org/news/how-to-write-quick-sort-algorithm-with-javascript/ 
+- https://www.guru99.com/quicksort-in-javascript.html
+
